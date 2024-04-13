@@ -1,0 +1,40 @@
+1. 6) printf ("%f ", 5.0/9*(70-32));
+
+2.
+linha 7: faltou & na variável
+linha 8: a variavel peso é float e a variavel idade é inteiro
+linha 9: a variavel Matricula foi capitalizada erroneamente
+linha 10: apenas uma das variaveis foi impressa
+linha 10: o & não deve ser incluído quando se imprime uma variavel
+
+
+3.
+
+#include <stdio.h>
+int main(){
+
+    int numero, numeroaocubo;
+
+    numero = 3;
+    numeroaocubo = numero*numero*numero;
+
+    printf ("O resultado de numero ao cubo eh %d,", numeroaocubo);
+
+    return 0;
+}
+
+______________________________________________________________________________________________________
+
+#include <stdio.h>
+int main(){
+
+    int numero, numeroaocubo;
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
+
+    numeroaocubo = numero*numero*numero;
+
+    printf ("O resultado de numero ao cubo eh %d,", numeroaocubo);
+
+    return 0;
+}
